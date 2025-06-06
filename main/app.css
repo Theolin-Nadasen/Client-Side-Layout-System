@@ -1,0 +1,11 @@
+.nav{
+    width: 100vw;
+    background-color: red;
+    padding: 20px;
+    margin: 0;
+}
+
+.nav a{
+    color: gold;
+    text-decoration: none;
+}
