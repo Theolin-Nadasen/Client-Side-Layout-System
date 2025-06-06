@@ -1,0 +1,22 @@
+<div id="app">
+    <h1>Test Page</h1>
+    <p>Test Content</p>
+</div>
+
+<button onclick="addLayout()">Add Layout</button>
+
+<script>
+    let app = document.getElementById('app')
+    let content = app.innerHTML
+
+    function addLayout() {
+        fetch('layout.html')
+            .then(response => response.text())
+            .then(response => {
+                document.documentElement.innerHTML = response
+                document.querySelector('#app').innerHTML = content
+            })
+    }
+
+
+</script>
