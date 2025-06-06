@@ -1,11 +1,25 @@
+body{
+    margin: 0;
+}
+
 .nav{
     width: 100vw;
     background-color: red;
-    padding: 20px;
-    margin: 0;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
 }
 
 .nav a{
     color: gold;
     text-decoration: none;
+}
+
+.footer{
+    width: 100vw;
+    background-color: rgb(223, 220, 220);
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
 }
